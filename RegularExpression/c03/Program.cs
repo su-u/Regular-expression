@@ -38,6 +38,10 @@ namespace c03
             WriteLine(RegexMatch( "46462", @"[a-z6]", GetLine()));
             WriteLine(RegexMatch( "^ddd", @"[h^y]", GetLine()));
             WriteLine(RegexMatch( "11034", @"[^1-9]", GetLine()));
+            WriteLine(RegexMatch( "Library", @"[Ll]ibrary", GetLine()));
+            WriteLine(RegexMatch( "library", @"[Ll]ibrary", GetLine()));
+            
+            
 
         }
 
