@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Collections;
 using System.ComponentModel.Design;
+using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text.RegularExpressions;
 using static System.Console;
@@ -41,6 +43,11 @@ namespace c03
             WriteLine(RegexMatch( "Library", @"[Ll]ibrary", GetLine()));
             WriteLine(RegexMatch( "library", @"[Ll]ibrary", GetLine()));
             
+            //グルーピング
+            WriteLine(RegexMatch( "long long ago Long", @"[Ll]ong", GetLine()));
+            WriteLine(RegexMatch( "long long ago Long", @"[l]ong", GetLine()));
+            WriteLine(RegexMatch( "long long ago Long", @"(long )", GetLine()));
+            WriteLine(RegexMatch( "long long ago Long", @"([Ll]ong*)+", GetLine()));
             
 
         }
@@ -51,12 +58,24 @@ namespace c03
         }
         private static string RegexMatch(string input, string pattern, int num = 0)
         {
-            return ($"{num}: \"{input}\" -> \"{pattern}\" = \"{Regex.Match(input, pattern)}\"");
+            var s = Regex.Matches(input, pattern).MatchesFlatting();
+            return ($"{num}: \"{input}\" -> \"{pattern}\" = \"{s}\"");
         }
-        
+
+       
         private static int GetLine([CallerLineNumber]int line = 0)
         {
             return line;
+        }
+    }
+
+    public static class MyEx
+    {
+        public static string MatchesFlatting(this MatchCollection matchCollection)
+        {
+            var result = string.Empty;
+            var selectMany = matchCollection.Cast<Match>().SelectMany(x => x.Value);
+            return selectMany.Aggregate(result, (current, i) => current + i);
         }
     }
 }
