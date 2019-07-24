@@ -29,6 +29,15 @@ namespace c03
             WriteLine(RegexMatch( "abc", @"..", GetLine()));
             WriteLine(RegexMatch( "   ", @"..", GetLine()));
             WriteLine(RegexMatch( "  ", @".", GetLine()));
+            
+            //いずれかにマッチ
+            WriteLine(RegexMatch( "aaa", @"[a]", GetLine()));
+            WriteLine(RegexMatch( "xyz", @"[xyz]", GetLine()));
+            WriteLine(RegexMatch( "aaa", @"[a-z]", GetLine()));
+            WriteLine(RegexMatch( "1234569764", @"[2-8]", GetLine()));
+            WriteLine(RegexMatch( "46462", @"[a-z6]", GetLine()));
+            WriteLine(RegexMatch( "^ddd", @"[h^y]", GetLine()));
+            WriteLine(RegexMatch( "11034", @"[^1-9]", GetLine()));
 
         }
 
