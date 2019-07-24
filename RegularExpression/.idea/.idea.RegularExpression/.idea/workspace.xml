@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b0c959e6-af63-480c-a0c1-6fd0acd54f3f" name="Default Changelist" comment="" />
+    <list default="true" id="b0c959e6-af63-480c-a0c1-6fd0acd54f3f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/c03/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/c03/Program.cs" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,8 +15,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/c02/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="184">
+              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
               <folding>
                 <marker date="1563932324841" expanded="true" signature="52:204" ph="{...}" />
                 <marker date="1563932324841" expanded="true" signature="81:202" ph="{...}" />
@@ -24,15 +26,29 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/c02/c02.csproj">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/c01/c01.csproj">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/c03/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+            <state relative-caret-position="713">
+              <caret line="31" column="43" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
               <folding>
-                <marker date="1563932331261" expanded="true" signature="13:123" ph="{...}" />
-                <marker date="1563932331261" expanded="true" signature="42:121" ph="{...}" />
-                <marker date="1563932331261" expanded="true" signature="95:115" ph="{...}" />
+                <marker date="1563934456592" expanded="true" signature="6:155" ph="..." />
+                <marker date="1563934456592" expanded="true" signature="170:1783" ph="{...}" />
+                <marker date="1563934456592" expanded="true" signature="199:1781" ph="{...}" />
+                <marker date="1563934456592" expanded="true" signature="252:1213" ph="{...}" />
+                <marker date="1563934456592" expanded="true" signature="1320:1461" ph="{...}" />
+                <marker date="1563934456592" expanded="true" signature="1545:1654" ph="{...}" />
+                <marker date="1563934456592" expanded="true" signature="1730:1775" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -59,9 +75,17 @@
       </list>
     </option>
   </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/.idea.RegularExpression/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/.idea.RegularExpression/.idea/indexLayout.xml" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="967" />
-    <option name="y" value="300" />
+    <option name="x" value="918" />
+    <option name="y" value="228" />
     <option name="width" value="2111" />
     <option name="height" value="1764" />
   </component>
@@ -77,6 +101,16 @@
             <path>
               <item name="" type="784c90a0:SolutionExplorerRootNode" />
               <item name="RegularExpression" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="RegularExpression" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="c02" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="RegularExpression" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="c03" type="24d0babc:SolutionExplorerModelNode" />
             </path>
           </expand>
           <select />
@@ -108,19 +142,19 @@
   </component>
   <component name="RunManager">
     <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
-      <option name="EXE_PATH" value="" />
+      <option name="EXE_PATH" value="$PROJECT_DIR$/c03/bin/Debug/c03.exe" />
       <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/c03/bin/Debug" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
-      <option name="PROJECT_PATH" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/c03/c03.csproj" />
       <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
       <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
       <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
-      <option name="PROJECT_KIND" value="None" />
-      <option name="PROJECT_TFM" value="" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.7.2" />
       <method v="2">
         <option name="Build" enabled="true" />
       </method>
@@ -136,12 +170,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563931449347</updated>
-      <workItem from="1563931450519" duration="827000" />
+      <workItem from="1563931450519" duration="2951000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="827000" />
+    <option name="totallyTimeSpent" value="2951000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -153,24 +187,25 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="967" y="300" width="2111" height="1764" extended-state="0" />
+    <frame x="918" y="228" width="2111" height="1764" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2496329" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2496329" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="NuGet" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Unit Tests" />
-      <window_info anchor="bottom" id="Regex Tester" />
+      <window_info anchor="bottom" id="Regex Tester" weight="0.3296636" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Performance Profiler" />
+      <window_info anchor="bottom" id="Build" weight="0.3296636" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3296636" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -233,9 +268,6 @@
     <entry file="file://$PROJECT_DIR$/RegularExpression/RegularExpression.csproj">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/c01/c01.csproj">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/978BB286-3A1E-4C66-A74B-72341E3A291D/20/1af2de85/Regex.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="526">
@@ -245,8 +277,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/c02/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="184">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
           <folding>
             <marker date="1563932324841" expanded="true" signature="52:204" ph="{...}" />
             <marker date="1563932324841" expanded="true" signature="81:202" ph="{...}" />
@@ -255,17 +287,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/c02/c02.csproj">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/c01/c01.csproj">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/c03/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        <state relative-caret-position="713">
+          <caret line="31" column="43" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
           <folding>
-            <marker date="1563932331261" expanded="true" signature="13:123" ph="{...}" />
-            <marker date="1563932331261" expanded="true" signature="42:121" ph="{...}" />
-            <marker date="1563932331261" expanded="true" signature="95:115" ph="{...}" />
+            <marker date="1563934456592" expanded="true" signature="6:155" ph="..." />
+            <marker date="1563934456592" expanded="true" signature="170:1783" ph="{...}" />
+            <marker date="1563934456592" expanded="true" signature="199:1781" ph="{...}" />
+            <marker date="1563934456592" expanded="true" signature="252:1213" ph="{...}" />
+            <marker date="1563934456592" expanded="true" signature="1320:1461" ph="{...}" />
+            <marker date="1563934456592" expanded="true" signature="1545:1654" ph="{...}" />
+            <marker date="1563934456592" expanded="true" signature="1730:1775" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
+  </component>
+  <component name="regexState">
+    <option name="map">
+      <map>
+        <entry key="flags" value="0" />
+        <entry key="mode" value="0" />
+        <entry key="regex" value="aaa" />
+        <entry key="text" value="abc&#10;a..&#10;aaa\\" />
+      </map>
+    </option>
   </component>
 </project>
