@@ -55,11 +55,12 @@ namespace c03
 //            WriteLine(RegexMatch("aaaaa.txt", @"*.txt", GetLine()));
             WriteLine(RegexMatch("aaaaa.txt", @"..*\.txt", GetLine()));
             
-            
-            
-            
-            
-            
+            //07
+            WriteLine(RegexMatch("aaaaaaa", @"a{2,5}", GetLine()));
+            WriteLine(RegexMatch("aaaaaaa", @".\{2,\}", GetLine()));  
+            WriteLine(RegexMatch("aaaaaaa", @".{2,}", GetLine()));  
+            WriteLine(RegexMatch("ababab", @"(ab){2,3}", GetLine())); 
+
             
     
         }
