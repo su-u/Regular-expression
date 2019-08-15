@@ -4,7 +4,9 @@ using System.ComponentModel.Design;
 using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text.RegularExpressions;
+using MyRegex;
 using static System.Console;
+using static MyRegex.MyRegexClass;
 
 namespace c03
 {
@@ -25,7 +27,6 @@ namespace c03
             WriteLine(RegexMatch("aaa", "a\\.\\.", GetLine()));
             WriteLine(RegexMatch("aaa", "a..",GetLine()));
             WriteLine(RegexMatch("aaa", @"a..",GetLine()));
-                        
             //任意の1文字
             WriteLine(RegexMatch( "aaa", @".", GetLine()));
             WriteLine(RegexMatch( "abc", @"..", GetLine()));
@@ -49,33 +50,18 @@ namespace c03
             WriteLine(RegexMatch( "long long ago Long", @"(long )", GetLine()));
             WriteLine(RegexMatch( "long long ago Long", @"([Ll]ong*)+", GetLine()));
             
-
-        }
-
-        private static string RegexReplace(string input, string pattern, string replacement, int num = 0)
-        {
-            return ($"{num}: \"{input}\" => \"{pattern}\" -> \"{replacement}\" = \"{Regex.Replace(input, pattern, replacement)}\"");
-        }
-        private static string RegexMatch(string input, string pattern, int num = 0)
-        {
-            var s = Regex.Matches(input, pattern).MatchesFlatting();
-            return ($"{num}: \"{input}\" -> \"{pattern}\" = \"{s}\"");
-        }
-
-       
-        private static int GetLine([CallerLineNumber]int line = 0)
-        {
-            return line;
-        }
-    }
-
-    public static class MyEx
-    {
-        public static string MatchesFlatting(this MatchCollection matchCollection)
-        {
-            var result = string.Empty;
-            var selectMany = matchCollection.Cast<Match>().SelectMany(x => x.Value);
-            return selectMany.Aggregate(result, (current, i) => current + i);
+            //06
+            WriteLine(RegexMatch("AAAAAAA", @"A", GetLine()));
+//            WriteLine(RegexMatch("aaaaa.txt", @"*.txt", GetLine()));
+            WriteLine(RegexMatch("aaaaa.txt", @"..*\.txt", GetLine()));
+            
+            
+            
+            
+            
+            
+            
+    
         }
     }
 }
